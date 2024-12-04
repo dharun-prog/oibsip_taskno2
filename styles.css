@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #111;
+    color: white;
+    line-height: 1.6;
+  }
+  
+  .container {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    padding: 50px 20px;
+    background: #222;
+    border-bottom: 3px solid #444;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    color: #bbb;
+  }
+  
+  .play-button {
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto 0;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .play-button span {
+    font-size: 1.2rem;
+    color: white;
+  }
+  
+  .play-button:hover {
+    background: white;
+    color: black;
+  }
+  
+  /* Quote Section */
+  .quote-section {
+    padding: 50px 20px;
+    background: #fff;
+    color: #111;
+    font-style: italic;
+    font-size: 1.5rem;
+  }
+  
+  /* Bio Section */
+  .bio-section {
+    padding: 50px 20px;
+  }
+  
+  .bio-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .bio-content img {
+    max-width: 300px;
+    border-radius: 10px;
+  }
+  
+  .bio-content h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .bio-content p {
+    font-size: 1rem;
+    text-align: justify;
+    color: #ccc;
+  }
+  
+  /* Footer */
+  footer {
+    padding: 20px 0;
+    font-size: 0.9rem;
+    background: #222;
+    color: #bbb;
+  }
+  
+  footer a {
+    color: #4caf50;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
